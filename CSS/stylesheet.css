@@ -148,7 +148,7 @@ nav.images{
     height: fit-content;
     width: fit-content;
 }
-#img1,#img2,#img3{
+#img{
     height: 8vw;
     width: 8.5vw;
     background: linear-gradient(180deg, rgba(250, 255, 35, 0.99) -4.65%, rgba(250, 255, 35, 0) 100%);
@@ -167,4 +167,7 @@ nav.images{
     position: relative;
     top:7vh;
     left:46.5vw;
+}
+#img:hover{
+    background-color:yellow;
 }
