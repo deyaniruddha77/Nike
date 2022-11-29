@@ -34,12 +34,14 @@ a {
 .black {
     color: black;
 }
-
-.up {
+ul {
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.up {
     font-size: 21px;
     position: relative;
     top: -2.5vh;
